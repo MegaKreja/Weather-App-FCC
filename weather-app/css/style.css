@@ -1,0 +1,61 @@
+* {
+  margin:0;
+  padding:0;
+}
+#container {
+  background: #780206;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: cover;
+  height: 100vh;
+}
+#data {
+  text-align:center;
+  font-family: 'Sedgwick Ave', cursive;
+  color: white;
+}
+.intro {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 30px;
+}
+#city {
+  font-size: 25px;
+  padding-bottom: 40px;
+}
+#temperature {
+  font-size: 24px;
+}
+#pressure {
+  padding-top: 80px;
+}
+#humidity {
+  padding-bottom: 20px;
+}
+#convert {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#convert:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #082538);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #082538);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #082538);
+  background-image: -o-linear-gradient(top, #3cb0fd, #082538);
+  background-image: linear-gradient(to bottom, #3cb0fd, #082538);
+  text-decoration: none;
+}
